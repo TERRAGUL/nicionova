@@ -1,0 +1,40 @@
+<!-- activity_main.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for displaying images -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="Image preview"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <!-- Button to open gallery -->
+    <Button
+        android:id="@+id/btnChooseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Image" />
+
+    <!-- Button to record video -->
+    <Button
+        android:id="@+id/btnRecordVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Video" />
+
+    <!-- Button to capture photo (add this button) -->
+    <Button
+        android:id="@+id/btnCapturePhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capture Photo" />
+
+</LinearLayout>
